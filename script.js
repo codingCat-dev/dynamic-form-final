@@ -53,6 +53,7 @@ const checkRequiredFieldNames = arr => {
     } else {
       setTimeout(() => {
         endContainer.classList.add('showEndContainer');
+        form.classList.add('form-end');
       }, 2000);
     }
   });

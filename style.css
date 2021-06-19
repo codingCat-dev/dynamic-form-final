@@ -42,6 +42,9 @@ ul {
   padding: 1rem;
   min-height: 90vh;
 }
+.form-end {
+  display: none;
+}
 
 .end-container {
   background-color: #f1f7ed;
