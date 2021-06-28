@@ -54,6 +54,7 @@ const checkRequiredFieldNames = arr => {
       setTimeout(() => {
         endContainer.classList.add('showEndContainer');
         form.classList.add('form-end');
+        requiredFieldName = false;
       }, 2000);
     }
   });
